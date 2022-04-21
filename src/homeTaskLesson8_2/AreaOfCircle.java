@@ -11,21 +11,33 @@
  */
 package homeTaskLesson8_2;
 
-
 public class AreaOfCircle {
-    static final double p =3.14;  
-    
-    void areaOfCircle (double r){
-        double area = p*r*r;
-        
-    }    
-    static void circumFerence(double r){
-        double l = 2*p*r;
-        
-    }  
-    
-    void showInfo(double r){
-        System.out.println();
+
+    static  double p = 3.14;
+    static int radius;
+
+    void areaOfCircle(double radius) {
+        double area = p * radius * radius;
+        System.out.println("Площадь круга: " + area);
     }
+
+    static void circumFerence(double radius) {
+        double l = 2 * p * radius;
+        System.out.println("Длина круга: " + l);
+    }
+
+    void showInfo(double radius) {
+        System.out.println("Радиус: " + radius);
+        areaOfCircle(radius);
+        circumFerence(radius);
+    }
+    public static void main(String[] args) {
+        AreaOfCircle ar1 = new AreaOfCircle();
+        ar1.areaOfCircle(3);
+        AreaOfCircle.circumFerence(5.5);
+        ar1.showInfo(3);
+        ar1.showInfo(p);
+       
+    }   
     
 }

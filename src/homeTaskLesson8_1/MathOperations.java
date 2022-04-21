@@ -16,9 +16,10 @@ public class MathOperations {
        
     }
 
-    static void delenye(double a, double b) {
-        double result = a / b;
-        System.out.println(a + " / " + b + " = " + result);
+    static void delenye(int a, int b) {
+        int result1 = a / b;
+        int result2 = a & b;
+        System.out.println("Результат деления " + a + " / " + b + " : " + "целое число: " + result1 + " Остаток: " + result2);
     }
   
        
