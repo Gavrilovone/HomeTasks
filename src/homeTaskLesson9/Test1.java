@@ -1,5 +1,5 @@
 
-package homeRaskLesson9;
+package homeTaskLesson9;
 /*
   Вычислите устно output-ы данных программ, а затем проверьте в NetBeans
 */
