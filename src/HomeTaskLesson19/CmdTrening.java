@@ -46,7 +46,7 @@ public class CmdTrening {
         }
         // тут мы просто выводим на экран значение массива target
         for (String s : target) {
-            System.out.println(s + " ");
+            System.out.print(s + " ");
         }
         System.out.println("");
     }
