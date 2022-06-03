@@ -3,7 +3,8 @@ package HomeTaskLesson24;
 
 abstract class Fish extends Animal {
     Fish(String name){
-        super.name = name;
+        super(name);
+        this.name = name;
     }
     
     @Override

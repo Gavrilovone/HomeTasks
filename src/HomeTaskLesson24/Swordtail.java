@@ -4,7 +4,8 @@ package HomeTaskLesson24;
 
  class Swordtail extends Fish { // меченосец
     Swordtail(String name){
-    super.name = name;
+    super(name);
+    this.name = name;
     }
     @Override
     void swim(){

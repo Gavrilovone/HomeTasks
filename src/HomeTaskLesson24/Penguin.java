@@ -4,7 +4,8 @@ package HomeTaskLesson24;
 
 public class Penguin extends Bird {
     Penguin(String name){
-    super.name = name;
+    super(name);
+    this.name = name;
     }
      @Override
     void eat(){
