@@ -30,7 +30,7 @@ public class main {
             } else if (an instanceof Penguin){
                 Penguin p = (Penguin)an;
                 System.out.println(((Penguin) an).name);
-                p.eat();
+                p.eat();                                                                                                                                                                                                                                                                                                                                
                 p.fly();
                 p.sleep();
                 p.speak();
